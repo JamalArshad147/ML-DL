@@ -113,7 +113,6 @@ def user_input(user_question):
 
 
 def main():
-
     st.set_page_config(page_title="Chat with PDF", page_icon="🤷‍♂️")
 
     st.header("Chat with PDF using OpenAI 🤷‍♂️")
@@ -154,7 +153,6 @@ def main():
                         st.warning(
                             "No text could be extracted from the uploaded PDF's."
                         )
-
             else:
                 st.warning("PLease upload at least one PDF file.")
 
